@@ -1,0 +1,22 @@
+{
+    "data": {
+        "subject_uuid": {
+            "item": "здесь наш объект, для которого моделируем связи",
+            "antonym":  {
+                "object_uuid": "антоним"
+            },
+            "synonym":  {
+                "object_uuid": "первый синоним",
+                "object_uuid_": "второй синоним"
+            },
+            "hypernym": {
+                "object_uuid": "гипероним"
+            },
+            "holonym": {
+                "object_uuid": "первый холоним",
+                "object_uuid_": "второй холоним",
+                "object_uuid__": "третий холоним"
+            }
+        }
+    }
+}
